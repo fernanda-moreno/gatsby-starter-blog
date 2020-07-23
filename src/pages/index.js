@@ -74,7 +74,7 @@ export const pageQuery = graphql`
               maxWidth: 1180
               maxHeight: 480
               resizingBehavior: PAD
-              background: "rgb:000000"
+              background: "linear-gradient(147.71deg, #168CA6 17.12%, #20E8C4 90.62%)"
             ) {
               ...GatsbyContentfulFluid_tracedSVG
             }

@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 
 import heroStyles from '../components/hero.module.css'
+import Navigation from '../components/navigation.js'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location}>
+        <Navigation />
         <div style={{ background: '#fff' }}>
           <Helmet title={`${post.title} | ${siteTitle}`} />
           <div className={heroStyles.hero}>
